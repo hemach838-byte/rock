@@ -12,11 +12,12 @@ function playGame(playerMove) {
   if (computerGuess === "Scissors") {
     result = "Tie";
   } 
-  }else if (computerGuess === "Rock") {
+  else if (computerGuess === "Rock") {
     result = "You lose";
   } else if (computerGuess === "Paper") {
     result = "You win";
-  } else if (playerMove === "Paper") {
+  }
+  }else if (playerMove === "Paper") {
     if (computerGuess === "Paper") {
       result = "Tie";
     } else if (computerGuess === "Scissors") {

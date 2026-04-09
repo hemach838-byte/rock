@@ -9,15 +9,14 @@ function playGame(playerMove) {
   const computerGuess = pickComputerMove();
   let result = "";
   if (playerMove === "Scissors") {
-  }
   if (computerGuess === "Scissors") {
     result = "Tie";
-  } else if (computerGuess === "Rock") {
+  } 
+  }else if (computerGuess === "Rock") {
     result = "You lose";
   } else if (computerGuess === "Paper") {
     result = "You win";
   } else if (playerMove === "Paper") {
-    let result = "";
     if (computerGuess === "Paper") {
       result = "Tie";
     } else if (computerGuess === "Scissors") {
@@ -26,7 +25,6 @@ function playGame(playerMove) {
       result = "You win";
     }
   } else if (playerMove === "Rock") {
-    let result = "";
     if (computerGuess === "Rock") {
       result = "Tie";
     } else if (computerGuess === "Paper") {

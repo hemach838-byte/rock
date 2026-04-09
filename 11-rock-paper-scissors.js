@@ -11,8 +11,7 @@ function playGame(playerMove) {
   if (playerMove === "Scissors") {
   if (computerGuess === "Scissors") {
     result = "Tie";
-  } 
-  else if (computerGuess === "Rock") {
+  } else if (computerGuess === "Rock") {
     result = "You lose";
   } else if (computerGuess === "Paper") {
     result = "You win";
